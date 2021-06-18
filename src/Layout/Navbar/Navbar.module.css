@@ -1,0 +1,80 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 0 30px;
+  min-height: 5rem;
+}
+.Nav__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Nav__right > i {
+  color: #a5aaad;
+  font-size: 1.2rem;
+  padding: 7px;
+}
+.Nav__right > * {
+  margin-left: 1rem;
+}
+
+
+.IconHam {
+  display: none;
+  cursor: pointer;
+}
+.IconHam > i {
+  font-size: 2rem;
+  color: #a5aaad;
+}
+
+
+.SearchInputContainer {
+  background-color: #F3F9F9;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+.SearchInputContainer > i {
+  color: rgb(194, 197, 196);
+}
+.SearchInput {
+  background-color: #F3F9F9;
+  border: 0;
+  margin: 10px;
+  font-size: 1rem;
+}
+.SearchInput:focus{
+  outline: none;
+}
+
+
+.Nav_avatar {
+  height: 40px;
+  width: 40px;
+  padding: 2px;
+  border-radius: 50%;
+  border: 3px solid #7886A0;
+}
+
+
+.UserName {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+
+@media only screen and (max-width: 978px) {
+  .IconHam {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .Nav__left {
+    display: none;
+  }
+}

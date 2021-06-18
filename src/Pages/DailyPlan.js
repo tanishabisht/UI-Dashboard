@@ -1,7 +1,11 @@
+import "./Pages.css"
+
 const DailyPlan = () => {
-    return (
-        <div>This IS A PAGE!!</div>
-    )
+  return (
+    <main>
+      SOME CONTEXT INSIDE OF THIS
+    </main>
+  )
 }
 
 export default DailyPlan

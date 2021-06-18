@@ -5,13 +5,11 @@ import { DailyPlan } from './Pages'
 function App() {
   return (
     <HashRouter>
-      <div className="app">
         <Layout>
           <Switch>
-            <Route exact path='/' component={DailyPlan} />
+            <Route exact path='/'><DailyPlan /></Route>
           </Switch>
         </Layout>
-      </div>
     </HashRouter>
   )
 }

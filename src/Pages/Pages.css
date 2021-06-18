@@ -1,0 +1,13 @@
+main {
+    background: #F3F9F9;
+    min-height: 100vh;
+    grid-column: 2/3;
+    padding: 2rem;
+    border-radius: 2rem 0px 0px 0px;
+}
+
+@media only screen and (max-width: 978px) {    
+    main {
+        grid-column: 1/2;
+    }
+}
