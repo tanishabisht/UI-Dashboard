@@ -1,0 +1,11 @@
+.Card {
+    background-color: #fff;
+    padding: 1rem;
+    border-bottom: 2px solid #ccc;
+}
+
+.CardLink {
+    text-decoration: none;
+    color: #A8E6E1;
+    font-weight: 700;
+}

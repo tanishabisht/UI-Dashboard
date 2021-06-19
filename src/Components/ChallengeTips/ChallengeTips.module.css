@@ -1,0 +1,25 @@
+.SectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section1 {
+    flex: 3;
+    width: 100%;
+}
+
+.Section2 {
+    flex: 2;
+}
+
+
+
+@media (max-width: 1280px) {
+    .SectionContainer {
+        flex-direction: column;
+    }
+    .Section2 {
+        margin-top: 1rem;
+    }
+}

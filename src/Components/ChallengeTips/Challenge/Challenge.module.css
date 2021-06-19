@@ -1,0 +1,88 @@
+.SectionContainer {
+    padding: 1rem;
+}
+
+.HeadingContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.Link {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 700;
+}
+
+.CardContainer {
+    background-color: #fff;
+    border-radius: 1rem;
+    background: url(../../../Assets/main.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 2rem;
+    background-position: center;
+}
+
+.Content {
+    width: 70%;
+}
+
+.Content > h2 {
+    color: #6E73C2;
+}
+
+.Content > p {
+    text-align: justify;
+}
+
+.Content i {
+    color: #6E73C2;
+}
+
+.Recepie {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.VerticalLine {
+    border-left: 3px solid #ccc;
+    height: 5rem;
+}
+
+.BtnPrimary {
+    padding: 10px 20px;
+    border: 0px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.BtnSecondary {
+    padding: 10px 10px;
+    border: 0px;
+    background-color: transparent;
+    color: #60A2A1;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width: 550px) {
+    .Content {        
+        width: 100%;
+    }
+    .Recepie {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .VerticalLine {
+        display: none;
+    }
+}
