@@ -1,13 +1,10 @@
-import { NavLink } from 'react-router-dom'
+import { SeactionHeading } from '../../../UI'
 import classes from './Challenge.module.css'
 
 const Challenge = () => {
     return (
         <div className={classes.SectionContainer}>
-            <div className={classes.HeadingContainer}>
-                <h3>Challenge</h3>
-                <NavLink className={classes.Link} to='/'>See progress &#8594;</NavLink>
-            </div>
+            <SeactionHeading heading='Challenge' />
             <div className={classes.CardContainer}>
                 <div className={classes.Content}>
                     <h2><i class="fa fa-apple"></i> Early Morning Smoothie</h2>

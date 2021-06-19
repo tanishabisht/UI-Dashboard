@@ -33,8 +33,9 @@
 
 .SearchInputContainer {
   background-color: #F3F9F9;
-  padding: 8px 20px;
+  padding: 0px 20px;
   border-radius: 20px;
+  width: 400px;
 }
 .SearchInputContainer > i {
   color: rgb(194, 197, 196);
@@ -70,6 +71,9 @@
 @media only screen and (max-width: 978px) {
   .IconHam {
     display: inline;
+  }
+  .SearchInputContainer {
+    width: 100%;
   }
 }
 

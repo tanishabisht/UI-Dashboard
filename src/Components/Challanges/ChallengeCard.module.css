@@ -25,10 +25,10 @@
 
 .Content > i {
     background-color: #fff;
-    color: #6FD38D;
     padding: 13px 15px;
     border-radius: 0.8rem;
     margin-right: 1rem;
+    font-size: 1.2rem;
 }
 
 .Text > h5, .Text > h6 {

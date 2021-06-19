@@ -2,18 +2,6 @@
     padding: 1rem;
 }
 
-.HeadingContainer {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-}
-
-.Link {
-    text-decoration: none;
-    color: #ccc;
-    font-weight: 700;
-}
-
 .CardContainer {
     display: grid;
     grid-template-columns: 1fr;

@@ -9,8 +9,7 @@
 }
 
 .Card > i {
-    background-color: #EDFDF3;
-    color: #6FD38D;
+    font-size: 1.5rem;
     padding: 1.3rem 1.5rem;
     border-radius: 50%;
 }

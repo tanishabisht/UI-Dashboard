@@ -4,7 +4,7 @@ const DailyStats = props => {
     const { data } = props
     return(
         <div className={classes.Card}>
-            <i class="fa fa-apple"></i>
+            <i style={{color:data.dark, backgroundColor:data.light}} class="fa fa-apple"></i>
             <div className={classes.Content}>
                 <h4>{data.head}</h4>
                 <h2>{data.val}</h2>

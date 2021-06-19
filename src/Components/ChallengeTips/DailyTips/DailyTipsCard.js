@@ -7,7 +7,7 @@ const DailyTipsCard = props => {
         <div className={classes.Card}>
             <h4>{data.head}</h4>
             <p>{data.sub}</p>
-            <NavLink className={classes.CardLink} to='/'> &#10095; Find out more </NavLink>
+            <div className={classes.Rotate}><NavLink className={classes.CardLink} to='/'> &#10095; Find out more </NavLink></div>
         </div>
     )
 }

@@ -1,0 +1,17 @@
+.HeadingContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+.Link {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+.Link:hover {
+    color: #A8E6E1;
+}

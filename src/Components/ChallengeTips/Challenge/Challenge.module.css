@@ -2,18 +2,6 @@
     padding: 1rem;
 }
 
-.HeadingContainer {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-}
-
-.Link {
-    text-decoration: none;
-    color: #ccc;
-    font-weight: 700;
-}
-
 .CardContainer {
     background-color: #fff;
     border-radius: 1rem;
@@ -58,6 +46,11 @@
     background-color: #111;
     color: #fff;
     border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.BtnPrimary:hover {
+    background-color: #60A2A1;
 }
 
 .BtnSecondary {
@@ -67,6 +60,11 @@
     color: #60A2A1;
     font-weight: 700;
     border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.BtnSecondary:hover {
+    color: #111;
 }
 
 button:hover{

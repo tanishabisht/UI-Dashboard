@@ -6,7 +6,7 @@ const ChallengeCard = props => {
         <div className={classes.Card}>
             <img className={classes.Img} src={data.img} alt='bg-img' />
             <div className={classes.Content}>
-                <i class="fa fa-apple"></i>
+                <i style={{color:data.color}} class="fa fa-apple"></i>
                 <div className={classes.Text}>
                     <h5>{data.head}</h5>
                     <h6>{data.sub}</h6>

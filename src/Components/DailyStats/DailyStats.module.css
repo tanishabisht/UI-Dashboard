@@ -2,22 +2,10 @@
     padding: 1rem;
 }
 
-.HeadingContainer {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-}
-
 .CardContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
-}
-
-.Link {
-    text-decoration: none;
-    color: #ccc;
-    font-weight: 700;
 }
 
 

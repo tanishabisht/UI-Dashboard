@@ -11,10 +11,10 @@ const Navbar = props => {
         <i className="fa fa-bars"></i>
       </div>
       <div className={classes.Nav__left}>
-        <span className={classes.SearchInputContainer}>
+        <div className={classes.SearchInputContainer}>
           <i className="fa fa-search"></i>
-          <input className={classes.SearchInput} />
-        </span>
+          <input placeholder='Search something here ...' className={classes.SearchInput} />
+        </div>
       </div>
       <div className={classes.Nav__right}>
         <i className="fa fa-bell"></i>

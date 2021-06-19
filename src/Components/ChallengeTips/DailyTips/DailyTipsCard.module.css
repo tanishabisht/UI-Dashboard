@@ -4,6 +4,19 @@
     border-bottom: 2px solid #ccc;
 }
 
+.Card:last-child {    
+    border-bottom: 0px;
+}
+
+.Rotate {
+    transition: transform 0.2s ease-in-out;
+}
+
+.Rotate:hover {
+    transform: translateX(10px);
+    transition: transform 0.2s ease-in-out;
+}
+
 .CardLink {
     text-decoration: none;
     color: #A8E6E1;

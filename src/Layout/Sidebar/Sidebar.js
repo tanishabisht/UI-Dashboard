@@ -14,7 +14,7 @@ const Sidebar = props => {
       <i onClick={closeSidenav} className={`fa fa-times ${classes.IconCross}`} ></i>
 
       <div className={classes.Sidebar__heading}>
-        <img className={classes.Avatar} src={logo} alt="logo" />
+        <div className={classes.AvatarBorder}><img className={classes.Avatar} src={logo} alt="logo" /></div>
         <p>Daily Points</p>
         <h1>2,466</h1>
       </div>

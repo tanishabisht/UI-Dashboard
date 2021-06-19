@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { SeactionHeading } from '../../../UI'
 import DailyTipsCard from './DailyTipsCard'
 import classes from './DailyTips.module.css'
 
@@ -11,10 +11,7 @@ const datas = [
 const DailyTips = () => {
     return (
         <div className={classes.SectionContainer}>
-            <div className={classes.HeadingContainer}>
-                <h3>Daily Tips</h3>
-                <NavLink className={classes.Link} to='/'>See progress &#8594;</NavLink>
-            </div>
+            <SeactionHeading heading='Daily Tips' />
             <div className={classes.CardContainer}>
                 {datas.map(data => <DailyTipsCard key={data.head} data={data} />)}
             </div>

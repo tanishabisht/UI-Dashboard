@@ -1,0 +1,1 @@
+export { default as SeactionHeading } from './SectionHeading/SeactionHeading'
