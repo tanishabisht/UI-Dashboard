@@ -1,0 +1,56 @@
+.Table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0rem 0.5rem;
+}
+
+.Table > tr:hover {
+    background-color: #fff;
+    box-shadow: 0 0 20px -5px #D2EBEF;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+
+.Table td {
+    font-size: 1.1rem;
+    padding: 1.2rem;
+    color: #aaa;
+}
+.Table td:first-child { border-radius: 1rem 0 0 1rem; }
+.Table td:last-child { border-radius: 0 1rem 1rem 0; }
+
+
+.Table i {
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+.headIcon {
+    padding: 10px 11px;
+    border-radius: 50%;
+    background-color: rgb(218, 247, 247);
+}
+
+
+
+
+
+.SearchInputContainer {
+    background-color: #fff;
+    padding: 0px 20px;
+    border-radius: 10px;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+.SearchInputContainer > i {
+    color: rgb(194, 197, 196);
+}
+.SearchInput {
+    background-color: #fff;
+    border: 0;
+    margin: 10px;
+    font-size: 1rem;
+}
+.SearchInput:focus{
+    outline: none;
+}

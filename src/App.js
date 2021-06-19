@@ -1,6 +1,6 @@
 import { HashRouter, Switch, Route } from 'react-router-dom'
 import Layout from './Layout/Layout'
-import { DailyPlan } from './Pages'
+import { DailyPlan, Progress } from './Pages'
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <Layout>
           <Switch>
             <Route exact path='/'><DailyPlan /></Route>
+            <Route exact path='/progress'><Progress /></Route>
           </Switch>
         </Layout>
     </HashRouter>
