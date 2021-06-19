@@ -1,0 +1,24 @@
+.Card {
+    background-color: #fff;
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 20px -5px rgb(219, 243, 243);
+}
+
+.Card > i {
+    background-color: #EDFDF3;
+    color: #6FD38D;
+    padding: 1.3rem 1.5rem;
+    border-radius: 50%;
+}
+
+.Content > h4 {
+    margin-bottom: 10px;
+}
+
+.Content > h5 {
+    color: #ccc;
+}

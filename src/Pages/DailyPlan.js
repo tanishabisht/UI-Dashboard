@@ -1,9 +1,12 @@
+import { DailyStats, Challenges } from '../Components'
 import "./Pages.css"
 
 const DailyPlan = () => {
   return (
     <main>
-      SOME CONTEXT INSIDE OF THIS
+      <DailyStats />
+      <br/><br/>
+      <Challenges />
     </main>
   )
 }
