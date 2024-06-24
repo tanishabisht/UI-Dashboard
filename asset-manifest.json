@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/MiniProj-ReactJS-DashboardUI/static/css/main.7a9add61.chunk.css",
-    "main.js": "/MiniProj-ReactJS-DashboardUI/static/js/main.aaffcdbf.chunk.js",
-    "main.js.map": "/MiniProj-ReactJS-DashboardUI/static/js/main.aaffcdbf.chunk.js.map",
-    "runtime-main.js": "/MiniProj-ReactJS-DashboardUI/static/js/runtime-main.8757c147.js",
-    "runtime-main.js.map": "/MiniProj-ReactJS-DashboardUI/static/js/runtime-main.8757c147.js.map",
-    "static/js/2.6e69df3a.chunk.js": "/MiniProj-ReactJS-DashboardUI/static/js/2.6e69df3a.chunk.js",
-    "static/js/2.6e69df3a.chunk.js.map": "/MiniProj-ReactJS-DashboardUI/static/js/2.6e69df3a.chunk.js.map",
-    "index.html": "/MiniProj-ReactJS-DashboardUI/index.html",
-    "static/css/main.7a9add61.chunk.css.map": "/MiniProj-ReactJS-DashboardUI/static/css/main.7a9add61.chunk.css.map",
-    "static/js/2.6e69df3a.chunk.js.LICENSE.txt": "/MiniProj-ReactJS-DashboardUI/static/js/2.6e69df3a.chunk.js.LICENSE.txt",
-    "static/media/four1.44778390.jpg": "/MiniProj-ReactJS-DashboardUI/static/media/four1.44778390.jpg",
-    "static/media/four2.4c5933ad.jpg": "/MiniProj-ReactJS-DashboardUI/static/media/four2.4c5933ad.jpg",
-    "static/media/four3.2e7bf0a0.jpg": "/MiniProj-ReactJS-DashboardUI/static/media/four3.2e7bf0a0.jpg",
-    "static/media/four4.b01edd8e.jpg": "/MiniProj-ReactJS-DashboardUI/static/media/four4.b01edd8e.jpg",
-    "static/media/Challenge.module.css": "/MiniProj-ReactJS-DashboardUI/static/media/main.91d89688.png",
-    "static/media/profile.517e9698.png": "/MiniProj-ReactJS-DashboardUI/static/media/profile.517e9698.png"
+    "main.css": "/UI-Dashboard/static/css/main.0686eca3.chunk.css",
+    "main.js": "/UI-Dashboard/static/js/main.325e76cc.chunk.js",
+    "main.js.map": "/UI-Dashboard/static/js/main.325e76cc.chunk.js.map",
+    "runtime-main.js": "/UI-Dashboard/static/js/runtime-main.21497d5e.js",
+    "runtime-main.js.map": "/UI-Dashboard/static/js/runtime-main.21497d5e.js.map",
+    "static/js/2.6e69df3a.chunk.js": "/UI-Dashboard/static/js/2.6e69df3a.chunk.js",
+    "static/js/2.6e69df3a.chunk.js.map": "/UI-Dashboard/static/js/2.6e69df3a.chunk.js.map",
+    "index.html": "/UI-Dashboard/index.html",
+    "static/css/main.0686eca3.chunk.css.map": "/UI-Dashboard/static/css/main.0686eca3.chunk.css.map",
+    "static/js/2.6e69df3a.chunk.js.LICENSE.txt": "/UI-Dashboard/static/js/2.6e69df3a.chunk.js.LICENSE.txt",
+    "static/media/four1.44778390.jpg": "/UI-Dashboard/static/media/four1.44778390.jpg",
+    "static/media/four2.4c5933ad.jpg": "/UI-Dashboard/static/media/four2.4c5933ad.jpg",
+    "static/media/four3.2e7bf0a0.jpg": "/UI-Dashboard/static/media/four3.2e7bf0a0.jpg",
+    "static/media/four4.b01edd8e.jpg": "/UI-Dashboard/static/media/four4.b01edd8e.jpg",
+    "static/media/Challenge.module.css": "/UI-Dashboard/static/media/main.91d89688.png",
+    "static/media/profile.517e9698.png": "/UI-Dashboard/static/media/profile.517e9698.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8757c147.js",
+    "static/js/runtime-main.21497d5e.js",
     "static/js/2.6e69df3a.chunk.js",
-    "static/css/main.7a9add61.chunk.css",
-    "static/js/main.aaffcdbf.chunk.js"
+    "static/css/main.0686eca3.chunk.css",
+    "static/js/main.325e76cc.chunk.js"
   ]
 }
